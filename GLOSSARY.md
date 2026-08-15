@@ -1,81 +1,83 @@
-# Glossary
+# 용어집
+
+[English](GLOSSARY.en.md)
 
 ## OntoFlow
 
-An ontology-native workflow automation architecture. OntoFlow separates business meaning, workflow execution, validation, persistent knowledge, and optional approval components.
+온톨로지 정본과 워크플로우 실행을 결합한 업무 자동화 아키텍처입니다.
 
 ## Ontology Manager
 
-The component that owns type definitions, persistent objects, property values, relation instances, import jobs, and ontology change history.
+타입 정의, 영속 객체, 속성값, 관계 인스턴스, 일괄 등록, 온톨로지 변경 이력을 관리하는 컴포넌트입니다.
 
 ## Workflow Manager
 
-The component that owns workflow definitions, role declarations, node declarations, state slots, step runs, and action execution logs.
+워크플로우 정의, 역할 선언, 노드 선언, 상태 슬롯, 단계 실행, 액션 실행 로그를 관리하는 컴포넌트입니다.
 
 ## ObjectType
 
-A type of business object, such as `Patient`, `Doctor`, `Appointment`, `Equipment`, or `WorkOrder`.
+업무 객체의 타입입니다. 예: `Patient`, `Doctor`, `Appointment`, `Equipment`, `WorkOrder`.
 
 ## PropertyDefinition
 
-A typed property attached to an ObjectType. It defines value type, requirement, enum values, ranges, patterns, and related validation rules.
+ObjectType에 속한 속성 정의입니다. 값 타입, 필수 여부, 허용값, 범위, 패턴 같은 검증 기준을 가집니다.
 
 ## RelationType
 
-A typed relationship between two ObjectTypes.
+두 ObjectType 사이의 관계 정의입니다.
 
 ## ActionType
 
-A typed execution contract for an operation. It defines required object roles, produced object roles, input schema, output schema, connector references, retry policy, and dry-run behavior.
+실행 가능한 액션의 타입 계약입니다. 필요한 객체 역할, 생성하는 객체 역할, 입력 스키마, 출력 스키마, 커넥터, 재시도 정책, dry-run 동작을 정의합니다.
 
 ## State Slot
 
-A workflow runtime value identified by run, object role, and slot name. It stores the current value used by workflow steps.
+워크플로우 실행 중 사용하는 상태값입니다. 실행, 객체 역할, 슬롯 이름으로 식별합니다.
 
 ## State Slot History
 
-The workflow-level history of state slot changes. It answers which step, action, or input changed a runtime value.
+워크플로우 실행 중 상태 슬롯이 어떻게 바뀌었는지 남기는 이력입니다.
 
 ## Persistent Knowledge
 
-The durable ontology data layer: object instances, property values, relation instances, and ontology change history.
+영속 지식입니다. 객체 인스턴스, 속성값, 관계 인스턴스, 온톨로지 변경 이력을 포함합니다.
 
 ## Apply Boundary
 
-The single write boundary for persistent knowledge. Imports, direct edits, and workflow write-back all pass through this boundary.
+영속 지식을 바꾸는 단일 쓰기 경계입니다. 일괄 등록, 직접 편집, 워크플로우 WriteBack은 모두 이 경계를 통과합니다.
 
 ## Unified Validator
 
-The shared validation component used by slot writes, imports, direct edits, dry-runs, promotion checks, and type-change impact analysis.
+슬롯 쓰기, 일괄 등록, 직접 편집, dry-run, 승격 판정, 타입 변경 영향 분석이 함께 사용하는 단일 검증기입니다.
 
 ## Import Job
 
-A tracked unit for bulk ingestion. A job contains normalized import items and validation results.
+파일 또는 API로 들어온 대량 정의·데이터를 검증하고 적용하기 위한 추적 단위입니다.
 
 ## TBox
 
-The type layer: object types, properties, relations, action types, and workflow types.
+타입 계층입니다. 객체 타입, 속성, 관계, 액션 타입, 워크플로우 타입을 포함합니다.
 
 ## ABox
 
-The instance layer: object instances, property values, and relation instances.
+인스턴스 계층입니다. 객체 인스턴스, 속성값, 관계 인스턴스를 포함합니다.
 
 ## Gate
 
-An optional approval component for promoted workflow changes. Gate owns candidates and approval state, not persistent facts.
+워크플로우에서 만들어진 변경 후보를 승인 경계에 올리는 확장 컴포넌트입니다.
 
 ## Change Candidate
 
-A proposed change awaiting approval. It is not the same as change history because it can be rejected.
+승인 대기 중인 변경 제안입니다. 반려될 수 있으므로 실제 변경 이력과 다릅니다.
 
 ## Ontology Change History
 
-The immutable history of actual changes to TBox or ABox data.
+TBox 또는 ABox가 실제로 바뀐 사실을 남기는 불변 이력입니다.
 
 ## Conversational Input
 
-An optional front component that turns utterances into workflow candidates and slot fill candidates. It does not directly edit ontology data or execute actions.
+사용자 발화를 워크플로우 후보와 슬롯 후보로 바꾸는 앞단 입력 컴포넌트입니다. 온톨로지 정본을 직접 바꾸거나 액션을 직접 실행하지 않습니다.
 
 ## Dry-Run
 
-A non-persistent execution or validation mode used to inspect mappings, missing values, validation failures, and expected changes before committing.
+영속 반영 없이 매핑, 누락값, 검증 실패, 예상 변경을 확인하는 실행 또는 검증 모드입니다.

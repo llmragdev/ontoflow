@@ -1,5 +1,9 @@
 # Open Questions
 
+[한국어 정본](../ko/03-open-questions.md)
+
+This is an English translation of the canonical Korean document.
+
 This page collects questions where outside review is especially useful.
 
 ## 1. State Passing

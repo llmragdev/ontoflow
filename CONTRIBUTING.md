@@ -1,48 +1,48 @@
-# Contributing
+# 기여 안내
 
-Thank you for your interest in OntoFlow.
+[English](CONTRIBUTING.en.md)
 
-The project is currently in the architecture and design review phase. The best contributions are clear questions, concrete use cases, terminology improvements, and design critiques.
+OntoFlow에 관심을 가져주셔서 감사합니다.
 
-## Ways To Contribute
+현재 프로젝트는 아키텍처와 설계 검토 단계입니다. 좋은 기여는 명확한 질문, 구체적인 업무 사례, 용어 개선, 설계 비판, 문서 개선입니다.
 
-- Open a GitHub Discussion with a design question.
-- Suggest an enterprise workflow scenario.
-- Review the ontology and workflow boundaries.
-- Improve glossary terms.
-- Propose better examples.
-- Report unclear or inconsistent documentation.
+## 기여 방식
 
-## Public And Private Spaces
+- GitHub Discussions에 설계 질문 남기기
+- 업무 자동화 시나리오 제안하기
+- 온톨로지와 워크플로우 경계 검토하기
+- 용어집 개선하기
+- 예시 문서 개선하기
+- 문서의 모호한 부분 제보하기
 
-| Space | Role |
+## Public과 Private Lab
+
+| 공간 | 역할 |
 |---|---|
-| `ontoflow` | Public documentation, examples, discussions, and releases |
-| `ontoflow-lab` | Invite-only drafts, deeper review, and release curation |
+| `ontoflow` | 공개 문서, 예시, Discussions, 릴리즈 |
+| `ontoflow-lab` | 초대 기반 초안 검토, 심층 리뷰, 릴리즈 큐레이션 |
 
-Private lab access is considered after public discussion or a contributor survey response.
+Private lab 초대는 공개 토론 참여 또는 참여 설문 응답 이후 검토합니다.
 
-## Contribution Rules
+## 제출하면 안 되는 것
 
-Please do not submit:
+- 회사 또는 고객사 비공개 정보
+- 소유권이 불명확한 운영 소스 코드
+- 비밀키, 토큰, 접속 정보
+- 동의 없는 개인 대화 원문
+- 비공개 연구 데이터
 
-- Private company or customer information.
-- Production source code that you do not own.
-- Secrets, tokens, credentials, or endpoint details.
-- Personal conversations without consent.
-- Non-public research data.
+## Pull Request
 
-## Pull Requests
+초기 Pull Request는 다음 범위로 제한합니다.
 
-At the current stage, pull requests should focus on:
+- 오타 수정
+- 문서 명확화
+- 용어집 개선
+- 독립 예시 개선
 
-- Typos.
-- Documentation clarity.
-- Glossary improvements.
-- Self-contained examples.
+큰 설계 변경은 먼저 Discussions에서 제안해주세요.
 
-Large design changes should start in Discussions.
+## 참여 설문
 
-## Contributor Survey
-
-A contributor survey link will be added after the first public release.
+첫 공개 릴리즈 이후 참여 설문 링크를 추가할 예정입니다.

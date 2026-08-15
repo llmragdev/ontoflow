@@ -1,5 +1,9 @@
 # Roadmap
 
+[한국어 정본](../ko/04-roadmap.md)
+
+This is an English translation of the canonical Korean document.
+
 ## 2026 Core
 
 | Phase | Focus |

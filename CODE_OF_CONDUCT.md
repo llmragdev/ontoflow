@@ -1,20 +1,22 @@
-# Code of Conduct
+# 행동 규범
 
-OntoFlow is a technical design community. We welcome direct critique, but the critique should improve the work.
+[English](CODE_OF_CONDUCT.en.md)
 
-## Expected Behavior
+OntoFlow는 기술 설계 커뮤니티입니다. 직접적인 비판은 환영하지만, 비판은 설계를 개선하는 방향이어야 합니다.
 
-- Be specific.
-- Challenge ideas, not people.
-- Explain tradeoffs.
-- Respect public/private boundaries.
-- Avoid sharing confidential material.
+## 기대하는 행동
 
-## Unacceptable Behavior
+- 구체적으로 말하기
+- 사람보다 아이디어를 비판하기
+- 장단점과 트레이드오프를 설명하기
+- public/private 경계를 지키기
+- 비공개 자료를 공유하지 않기
 
-- Harassment or personal attacks.
-- Publishing private information.
-- Sharing private lab material without permission.
-- Submitting confidential code or data.
+## 허용하지 않는 행동
 
-Maintainers may remove content or restrict participation when needed to protect the project and its contributors.
+- 괴롭힘 또는 인신공격
+- 개인 정보 공개
+- 허가 없는 private lab 자료 공유
+- 비공개 코드나 데이터 제출
+
+관리자는 프로젝트와 참여자를 보호하기 위해 필요한 경우 콘텐츠를 제거하거나 참여를 제한할 수 있습니다.

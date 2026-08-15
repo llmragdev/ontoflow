@@ -1,5 +1,9 @@
 # Hospital Reservation Example
 
+[한국어 정본](../ko/hospital-reservation.md)
+
+This is an English translation of the canonical Korean example.
+
 This example shows how OntoFlow models a common business workflow.
 
 ## Object Types

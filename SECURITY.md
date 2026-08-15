@@ -1,29 +1,31 @@
-# Security Policy
+# 보안 정책
 
-OntoFlow is currently a design-first public repository. Even so, public contributions must avoid leaking private or sensitive material.
+[English](SECURITY.en.md)
 
-## Do Not Submit
+OntoFlow는 현재 설계 중심 공개 저장소입니다. 그래도 공개 기여 과정에서 민감 정보가 섞이지 않도록 주의해야 합니다.
 
-- Secrets, tokens, credentials, API keys, or connection strings.
-- Private source code.
-- Customer names or customer-specific diagrams.
-- Internal system names, hostnames, IP addresses, or endpoint URLs.
-- Personal conversation logs without consent.
-- Non-public research or conference material.
+## 제출 금지
 
-## Reporting Sensitive Content
+- 비밀키, 토큰, 인증 정보, API 키, 접속 문자열
+- 운영 소스 코드
+- 고객사명 또는 고객사별 구조
+- 내부 시스템명, 호스트명, IP, 엔드포인트 URL
+- 동의 없는 개인 대화 기록
+- 비공개 연구·논문 자료
 
-If you find sensitive information in this repository, open a private security advisory if available, or contact the maintainers through the repository owner profile.
+## 민감 정보 발견 시
 
-Do not repost the sensitive content in public Issues or Discussions.
+민감 정보가 발견되면 public Issue나 Discussion에 내용을 재게시하지 마세요.
 
-## Public Release Gate
+가능하면 비공개 보안 제보 경로를 사용하거나 저장소 소유자 프로필의 연락 경로로 알려주세요.
 
-Public release candidates should pass checks for:
+## 공개 릴리즈 점검
 
-- Personal names.
-- Internal paths.
-- Organization or customer identifiers.
-- Secrets and credentials.
-- Endpoint URLs.
-- Non-public data.
+public 릴리즈 후보는 다음을 점검합니다.
+
+- 개인 실명
+- 내부 경로
+- 조직·고객사 식별자
+- 비밀키와 인증 정보
+- 엔드포인트 URL
+- 비공개 데이터
