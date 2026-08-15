@@ -35,6 +35,7 @@ OntoFlow는 이 질문을 제품 구조의 핵심으로 다룹니다.
 | 공개 질문 | [docs/ko/03-open-questions.md](docs/ko/03-open-questions.md) | [docs/en/03-open-questions.md](docs/en/03-open-questions.md) |
 | 로드맵 | [docs/ko/04-roadmap.md](docs/ko/04-roadmap.md) | [docs/en/04-roadmap.md](docs/en/04-roadmap.md) |
 | 병원예약 예시 | [examples/ko/hospital-reservation.md](examples/ko/hospital-reservation.md) | [examples/en/hospital-reservation.md](examples/en/hospital-reservation.md) |
+| 운영 원칙 | [GOVERNANCE.md](GOVERNANCE.md) | [GOVERNANCE.en.md](GOVERNANCE.en.md) |
 
 용어는 [GLOSSARY.md](GLOSSARY.md)를 먼저 참고하세요.
 
@@ -78,6 +79,14 @@ OntoFlow는 이 질문을 제품 구조의 핵심으로 다룹니다.
 | `ontoflow-lab` | Private | 초안, 심층 리뷰, 릴리즈 큐레이션 |
 
 Private lab 초대는 공개 토론 참여 또는 설문 응답 이후 검토합니다.
+
+## 운영 원칙
+
+OntoFlow는 공개 기여를 환영합니다. 기여자는 기여 내용에 따라 공개적으로 인정받을 수 있습니다.
+
+다만 공식 저장소, 브랜드, 릴리즈, 상업적 운영은 프로젝트 소유자가 관리합니다. 별도 서면 계약이 없는 한 공개 기여는 상표권, 상용 라이선스 권리, 지분, 고용, 매출 배분권을 의미하지 않습니다.
+
+자세한 내용은 [GOVERNANCE.md](GOVERNANCE.md)를 참고하세요.
 
 ## 라이선스
 

@@ -39,6 +39,7 @@ Recommended reading order:
 3. [Glossary](GLOSSARY.en.md)
 4. [Hospital Reservation Example](examples/en/hospital-reservation.md)
 5. [Open Questions](docs/en/03-open-questions.md)
+6. [Governance](GOVERNANCE.en.md)
 
 Canonical Korean documents:
 
@@ -54,6 +55,14 @@ Canonical Korean documents:
 | `ontoflow-lab` | Private | Drafts, deeper review, release curation for invited contributors |
 
 Public discussion happens in this repository. Private lab access is invite-only and is considered after public discussion or the contributor survey.
+
+## Governance
+
+OntoFlow welcomes public contribution, and contributors may be credited for their work.
+
+The official repository, brand, releases, and commercial operations are managed by the project owner. Unless separately agreed in writing, contribution does not imply trademark rights, commercial licensing rights, equity, employment, or revenue sharing.
+
+See [GOVERNANCE.en.md](GOVERNANCE.en.md).
 
 ## Participate
 
