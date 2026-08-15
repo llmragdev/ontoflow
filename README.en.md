@@ -2,31 +2,31 @@
 
 [한국어](README.md) | English
 
-Ontology-native workflow automation for explainable business operations.
+Business process automation that is easy to understand, validate, and trace.
 
-The Korean documents are canonical. English documents are translations or summaries.
+The Korean documents are the source documents. English documents are translations or summaries.
 
-OntoFlow is a public architecture project for combining an ontology manager with a deterministic workflow manager. The goal is to make business automation easier to inspect, validate, and evolve.
+OntoFlow is a public architecture project that connects business data models with workflow execution. The goal is to make business automation easier for people to inspect, validate, trace, and evolve.
 
 ## Why
 
-Many automation systems start from a conversational interface or a chain of tool calls. That is useful, but enterprise workflows also need a stable model for answering practical questions:
+Many automation systems start from a conversational interface or a chain of tool calls. That is useful, but real business workflows also need clear answers to practical questions:
 
-- Which business object is being changed?
+- Which business data changed?
 - Which workflow step produced the value?
 - Which API, MCP tool, or internal service was called?
 - Which validation rule passed or failed?
-- When does a candidate change become persistent knowledge?
+- When does a proposed change become actual business data?
 
 OntoFlow treats these as core architecture concerns.
 
 ## Core Ideas
 
-- **Ontology Manager**: owns object types, properties, relations, action types, persistent objects, import jobs, and change history.
-- **Workflow Manager**: owns workflow definitions, role bindings, state slots, step runs, action logs, and deterministic execution.
-- **Unified Validator**: provides one validation path for slot writes, imports, direct edits, dry-runs, and promotion checks.
-- **Apply Boundary**: the only path that changes persistent ontology knowledge.
-- **Composable Components**: conversational input, approval gates, write-back, and automation triggers attach around the core instead of replacing it.
+- **Business Data Model Manager (Ontology Manager)**: manages business objects, properties, relations, bulk imports, and change history.
+- **Business Process Runner (Workflow Manager)**: manages workflow steps, input values, state changes, external calls, and execution logs.
+- **Shared Validator (Unified Validator)**: makes inputs, imports, direct edits, and dry-runs use the same validation rules.
+- **Apply Boundary**: keeps all actual data changes behind one controlled write path.
+- **Composable Components**: conversational input, approval screens, write-back, and automation triggers attach around the core.
 
 ## Current Release
 
@@ -76,11 +76,11 @@ Survey link will be added here.
 
 2026 core scope:
 
-- Commercial-grade Workflow Manager design.
-- Commercial-grade Ontology Manager design.
+- Commercial-grade business process runner design.
+- Commercial-grade business data model manager design.
 - Button/form-first workflow execution.
 - REST, MCP, and internal service action contracts.
-- Import, validation, apply, and change-history contracts.
+- Bulk import, validation, apply, and change-history contracts.
 
 Extension scope:
 
