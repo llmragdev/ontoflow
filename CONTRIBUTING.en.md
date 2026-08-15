@@ -28,7 +28,7 @@ Private lab access is considered after public discussion or a contributor survey
 
 OntoFlow welcomes public contribution, and contributors may be credited for their work.
 
-The official repository, brand, releases, and commercial operations are managed by the project owner. Unless separately agreed in writing, contribution does not imply trademark rights, commercial licensing rights, equity, employment, or revenue sharing.
+The official repository, documentation direction, and release criteria are managed by the project lead. Contributor credit does not imply project representative authority or repository administration rights.
 
 See [GOVERNANCE.en.md](GOVERNANCE.en.md).
 

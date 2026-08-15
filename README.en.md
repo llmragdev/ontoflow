@@ -60,7 +60,7 @@ Public discussion happens in this repository. Private lab access is invite-only 
 
 OntoFlow welcomes public contribution, and contributors may be credited for their work.
 
-The official repository, brand, releases, and commercial operations are managed by the project owner. Unless separately agreed in writing, contribution does not imply trademark rights, commercial licensing rights, equity, employment, or revenue sharing.
+The official repository, documentation direction, and release criteria are managed by the project lead. Contributor credit does not imply project representative authority or repository administration rights.
 
 See [GOVERNANCE.en.md](GOVERNANCE.en.md).
 
@@ -85,8 +85,8 @@ Survey link will be added here.
 
 2026 core scope:
 
-- Commercial-grade business process runner design.
-- Commercial-grade business data model manager design.
+- Production-grade business process runner design.
+- Production-grade business data model manager design.
 - Button/form-first workflow execution.
 - REST, MCP, and internal service action contracts.
 - Bulk import, validation, apply, and change-history contracts.

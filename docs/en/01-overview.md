@@ -6,7 +6,7 @@ This is an English summary of the canonical Korean overview document.
 
 ## Goal
 
-OntoFlow combines a commercial-grade Ontology Manager with a commercial-grade Workflow Manager.
+OntoFlow combines a production-grade Ontology Manager with a production-grade Workflow Manager.
 
 The core product is button/form-first deterministic workflow automation. Conversational input, Gate, WriteBack, and automation triggers are composable components around the core.
 
