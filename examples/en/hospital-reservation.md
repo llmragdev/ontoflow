@@ -1,5 +1,7 @@
 # Hospital Reservation Example
 
+[Examples](README.md) | [Factory Maintenance Automation Example](factory-maintenance-auto.md)
+
 [한국어 기준 문서](../ko/hospital-reservation.md)
 
 This is an English translation of the Korean source example.

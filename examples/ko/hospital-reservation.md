@@ -1,5 +1,7 @@
 # 병원예약 예시
 
+[예시 목록](README.md) | [공장 자동 정비 지시 예시](factory-maintenance-auto.md)
+
 이 예시는 OntoFlow가 일반적인 업무 흐름을 어떻게 모델링하는지 보여줍니다.
 
 ## 객체 타입

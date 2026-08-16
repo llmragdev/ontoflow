@@ -1,5 +1,7 @@
 # Factory Maintenance Automation Example
 
+[Examples](README.md) | [Hospital Reservation Example](hospital-reservation.md)
+
 [한국어](../ko/factory-maintenance-auto.md) | English
 
 This example shows how OntoFlow can create a maintenance work order from equipment events.
