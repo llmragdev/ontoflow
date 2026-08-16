@@ -1,8 +1,8 @@
 # OntoFlow Overview Design
 
-[한국어 정본](../ko/01-overview.md)
+[한국어 기준 문서](../ko/01-overview.md)
 
-This is an English summary of the canonical Korean overview document.
+This is an English summary of the Korean source overview document.
 
 ## Goal
 
@@ -19,7 +19,7 @@ The core product is button/form-first deterministic workflow automation. Convers
 | Button/Form UI | Explicit and auditable execution path |
 | Conversational Input | Front component that proposes workflow runs and slot values |
 | Gate / WriteBack | Extension for approval and controlled persistence |
-| Automate | Later trigger-based execution extension |
+| Automate | Trigger-based execution extension (follow-up scope) |
 
 ## Main Principles
 
@@ -30,4 +30,4 @@ The core product is button/form-first deterministic workflow automation. Convers
 - TBox bulk changes require proposal, impact analysis, and approval.
 - Change candidates and actual change history are different records.
 
-For the full overview, see the Korean canonical document.
+For the full overview, see the Korean source document.

@@ -1,8 +1,8 @@
 # OntoFlow Architecture Specification
 
-[한국어 정본](../ko/02-architecture-spec.md)
+[한국어 기준 문서](../ko/02-architecture-spec.md)
 
-This is an English summary of the canonical Korean architecture specification.
+This is an English summary of the Korean source architecture specification.
 
 ## Layers
 
@@ -54,4 +54,4 @@ Apply is the only write boundary for persistent knowledge. TBox changes require 
 
 Workflow state is stored in role-qualified state slots rather than data edges. Control edges define execution order; state slots carry values.
 
-For the full specification, see the Korean canonical document.
+For the full specification, see the Korean source document.

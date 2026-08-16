@@ -42,11 +42,14 @@ This repository currently focuses on design documents and examples.
 
 | Area | Default Direction |
 |---|---|
-| Documents | CC BY 4.0 |
-| Example code | Apache License 2.0 |
+| Documents | Open for public review. Final license is under review |
+| Examples | Public synthetic examples. Final license is under review |
+| Core source | Non-commercial source-available direction under review |
 | Production code | To be decided before code publication |
 
-Contributions submitted to the public repository may be used under the repository license and contribution policy.
+Contributions submitted to the public repository may be used under the contribution policy and the license terms confirmed later.
+
+See [LICENSE-POLICY.md](LICENSE-POLICY.md) for the current policy note.
 
 ## Private Lab
 

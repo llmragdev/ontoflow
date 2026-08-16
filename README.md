@@ -28,13 +28,19 @@ OntoFlow는 이 질문을 제품 구조의 핵심으로 다룹니다.
 
 한국어 문서가 기준 문서입니다. 영어 문서는 번역 또는 요약본입니다.
 
+문서 홈: [한국어](docs/ko/README.md) | [English](docs/en/README.md)
+
 | 문서 | 한국어 | English |
 |---|---|---|
 | 개괄 설계 | [docs/ko/01-overview.md](docs/ko/01-overview.md) | [docs/en/01-overview.md](docs/en/01-overview.md) |
 | 상세 설계 | [docs/ko/02-architecture-spec.md](docs/ko/02-architecture-spec.md) | [docs/en/02-architecture-spec.md](docs/en/02-architecture-spec.md) |
+| 워크플로우 매니저 | [docs/ko/05-workflow-manager.md](docs/ko/05-workflow-manager.md) | - |
+| 온톨로지 매니저 | [docs/ko/06-ontology-manager.md](docs/ko/06-ontology-manager.md) | - |
+| 상태와 이력 | [docs/ko/07-state-history.md](docs/ko/07-state-history.md) | - |
 | 공개 질문 | [docs/ko/03-open-questions.md](docs/ko/03-open-questions.md) | [docs/en/03-open-questions.md](docs/en/03-open-questions.md) |
 | 로드맵 | [docs/ko/04-roadmap.md](docs/ko/04-roadmap.md) | [docs/en/04-roadmap.md](docs/en/04-roadmap.md) |
 | 병원예약 예시 | [examples/ko/hospital-reservation.md](examples/ko/hospital-reservation.md) | [examples/en/hospital-reservation.md](examples/en/hospital-reservation.md) |
+| 공장 자동 정비 지시 예시 | [examples/ko/factory-maintenance-auto.md](examples/ko/factory-maintenance-auto.md) | [examples/en/factory-maintenance-auto.md](examples/en/factory-maintenance-auto.md) |
 | 운영 원칙 | [GOVERNANCE.md](GOVERNANCE.md) | [GOVERNANCE.en.md](GOVERNANCE.en.md) |
 
 용어는 [GLOSSARY.md](GLOSSARY.md)를 먼저 참고하세요.
@@ -54,8 +60,8 @@ OntoFlow는 이 질문을 제품 구조의 핵심으로 다룹니다.
 확장 범위:
 
 - 대화식 입력 모듈
-- 승인 / 외부 반영 프로토타입
-- 후속 자동화 트리거
+- 승인 / 외부 반영 (초기 검증 범위)
+- 자동화 트리거 (후속 범위)
 
 ## 참여 방법
 
@@ -90,6 +96,8 @@ OntoFlow는 공개 기여를 환영합니다. 기여자는 기여 내용에 따�
 
 ## 라이선스
 
-문서는 CC BY 4.0으로 공유하는 것을 기본으로 합니다. 예제 코드는 추가 시 Apache License 2.0을 기본으로 합니다.
+현재 라이선스 정책은 검토 중입니다.
 
-현재 릴리즈는 설계 문서와 예시만 포함하며 운영 소스 코드는 포함하지 않습니다.
+문서, 예시, 핵심 소스는 서로 다른 조건으로 분리될 수 있습니다. 정식 라이선스가 확정되기 전에는 설계 문서와 공개 가능한 예시 중심으로 운영합니다.
+
+자세한 현재 기준은 [LICENSE-POLICY.md](LICENSE-POLICY.md)를 참고하세요.

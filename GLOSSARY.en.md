@@ -4,6 +4,19 @@
 
 The Korean glossary is the source document. This English glossary is a translation summary.
 
+## Terminology Principle
+
+OntoFlow uses `TBox / ABox` as the common type/instance distinction used in ontology and Description Logic.
+
+- `TBox` is the class/type definition layer.
+- `ABox` is the instance/data layer.
+- `ObjectType` is a class/type of business object.
+- `ObjectInstance` is an actual business object instance.
+- `RelationType` defines relationships between object types.
+- `ActionType` defines executable business operations.
+
+These terms are not intended as product-specific naming. They follow the general type/instance distinction in ontology modeling and common enterprise object modeling practice.
+
 ## OntoFlow
 
 A workflow automation architecture that connects business data models with business process execution. OntoFlow makes data changes easier to understand, validate, and trace.
@@ -18,7 +31,11 @@ The business process runner. It manages workflow steps, input values, state chan
 
 ## ObjectType
 
-A kind of business thing, such as `Patient`, `Doctor`, `Appointment`, `Equipment`, or `WorkOrder`.
+A class/type of business object, such as `Patient`, `Doctor`, `Appointment`, `Equipment`, or `WorkOrder`.
+
+## ObjectInstance
+
+An actual individual data item created from an `ObjectType`, such as a specific patient, appointment, or equipment item.
 
 ## PropertyDefinition
 
@@ -58,11 +75,11 @@ A tracked unit for validating and applying many records from a file or API.
 
 ## TBox
 
-The definition layer. It describes which business object types, fields, relationships, actions, and workflow types exist.
+The class/type layer. It defines the kinds of business objects and the properties, relationships, actions, and workflow types each kind can have.
 
 ## ABox
 
-The actual data layer. It contains real patients, appointments, equipment, work orders, values, and relationships.
+The instance layer. It contains actual business data created according to the class/type definitions, such as specific patients, appointments, equipment, work orders, values, and relationships.
 
 ## Gate
 

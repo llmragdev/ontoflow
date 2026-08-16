@@ -6,6 +6,8 @@ Business process automation that is easy to understand, validate, and trace.
 
 The Korean documents are the source documents. English documents are translations or summaries.
 
+Documentation home: [한국어](docs/ko/README.md) | [English](docs/en/README.md)
+
 OntoFlow is a public architecture project that connects business data models with workflow execution. The goal is to make business automation easier for people to inspect, validate, trace, and evolve.
 
 ## Why
@@ -38,8 +40,15 @@ Recommended reading order:
 2. [Architecture Specification](docs/en/02-architecture-spec.md)
 3. [Glossary](GLOSSARY.en.md)
 4. [Hospital Reservation Example](examples/en/hospital-reservation.md)
-5. [Open Questions](docs/en/03-open-questions.md)
-6. [Governance](GOVERNANCE.en.md)
+5. [Factory Maintenance Automation Example](examples/en/factory-maintenance-auto.md)
+6. [Open Questions](docs/en/03-open-questions.md)
+7. [Governance](GOVERNANCE.en.md)
+
+Additional Korean component notes:
+
+- [Workflow Manager](docs/ko/05-workflow-manager.md)
+- [Ontology Manager](docs/ko/06-ontology-manager.md)
+- [State and History](docs/ko/07-state-history.md)
 
 Canonical Korean documents:
 
@@ -94,11 +103,13 @@ Survey link will be added here.
 Extension scope:
 
 - Conversational input module.
-- Gate and WriteBack prototype.
-- Later automation triggers.
+- Gate and WriteBack (initial validation scope).
+- Automation triggers (follow-up scope).
 
 ## License
 
-Documents are intended to be shared under CC BY 4.0. Example code, when added, is intended to use Apache License 2.0.
+The license policy is under review.
 
-See [NOTICE](NOTICE) for the current repository-level license note.
+Documents, examples, and core source may use different terms. Until the final policy is confirmed, this repository is operated mainly as a public design and example space.
+
+See [LICENSE-POLICY.md](LICENSE-POLICY.md) for the current policy note.
