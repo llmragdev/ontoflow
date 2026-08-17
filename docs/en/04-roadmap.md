@@ -1,8 +1,8 @@
 # Roadmap
 
-[한국어 기준 문서](../ko/04-roadmap.md)
+[한국어](../ko/04-roadmap.md)
 
-This English page is a summary of the Korean source document.
+This English page is a summary of the Korean reference document.
 
 This document explains the implementation order for OntoFlow.
 

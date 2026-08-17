@@ -2,7 +2,7 @@
 
 [한국어](GLOSSARY.md) | English
 
-The Korean glossary is the source document. This English glossary is a translation summary.
+The Korean glossary is the primary reference. This English glossary is a translation summary.
 
 ## Terminology Principle
 

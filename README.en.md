@@ -4,7 +4,7 @@
 
 Business process automation that is easy to understand, validate, and trace.
 
-The Korean documents are the source documents. English documents are translations or summaries.
+The Korean documents are the primary references. English documents are translations or summaries.
 
 Documentation home: [한국어](docs/ko/README.md) | [English](docs/en/README.md)
 

@@ -2,9 +2,9 @@
 
 [Examples](README.md) | [Factory Maintenance Automation Example](factory-maintenance-auto.md)
 
-[한국어 기준 문서](../ko/hospital-reservation.md)
+[한국어](../ko/hospital-reservation.md)
 
-This is an English translation of the Korean source example.
+This is an English translation of the Korean reference example.
 
 This example shows how OntoFlow models a common business workflow.
 

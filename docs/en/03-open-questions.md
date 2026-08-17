@@ -1,8 +1,8 @@
 # Public Review Topics
 
-[한국어 기준 문서](../ko/03-open-questions.md)
+[한국어](../ko/03-open-questions.md)
 
-This English page is a summary of the Korean source document.
+This English page is a summary of the Korean reference document.
 
 This page lists design topics where outside review is useful. Each topic first states OntoFlow's current position, then explains what kind of feedback would help. The questions are **example prompts for discussion**, not unsupported open-ended questions.
 
@@ -128,7 +128,7 @@ ActionType = executable business operation definition
 
 - Clear Korean wording for general readers
 - Stable English identifiers for implementation documents
-- Consistent terminology between Korean source documents and English summaries
+- Consistent terminology between Korean reference documents and English summaries
 
 ### Example Prompt
 

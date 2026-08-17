@@ -2,7 +2,7 @@
 
 [한국어](../ko/README.md) | English
 
-This folder contains English translations or summaries. The Korean documentation is the source of truth.
+This folder contains English translations or summaries. The Korean documentation is the primary reference.
 
 ## Reading Order
 
@@ -25,7 +25,7 @@ Some detailed component documents are currently available only in Korean.
 ## Language Structure
 
 ```text
-docs/ko  Korean source documentation
+docs/ko  Korean reference documentation
 docs/en  English translations or summaries
 ```
 
