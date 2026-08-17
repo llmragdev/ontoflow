@@ -19,6 +19,8 @@ OntoFlow는 `TBox / ABox`를 온톨로지와 Description Logic 계열에서 쓰�
 
 ## OntoFlow
 
+한국어로는 **온토플로우**라고 읽습니다. `Ontology`와 `Flow`를 합친 이름입니다.
+
 업무 데이터 모델과 업무 절차 실행을 연결해, 값이 왜 바뀌었는지 추적할 수 있게 만드는 업무 자동화 아키텍처입니다.
 
 ## Ontology Manager
