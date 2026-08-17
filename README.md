@@ -74,12 +74,9 @@ OntoFlow는 이 질문을 제품 구조의 핵심으로 다룹니다.
 
 참여 설문:
 
-```text
-o 설문 링크가 준비되면 여기에 추가합니다.
-o ontoFlow 초기 컨트리뷰터 및 PrivateLab 참여 신청 구글폼:
-  - https://docs.google.com/forms/d/e/1FAIpQLSeMQUM6ZlFRYTsNM2yO_HvDOpVs0OmuGmRpuKWzSvtQpK7skw/viewform
+[OntoFlow 초기 기여자 및 private lab 참여 신청](https://docs.google.com/forms/d/e/1FAIpQLSeMQUM6ZlFRYTsNM2yO_HvDOpVs0OmuGmRpuKWzSvtQpK7skw/viewform) — 약 3분
 
-```
+참여는 자율이며, 소속 기관, 교육 과정, 평가, 고용 관계와 무관합니다.
 
 ## 저장소
 

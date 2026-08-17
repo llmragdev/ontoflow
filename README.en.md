@@ -86,9 +86,9 @@ You can participate by:
 
 Contributor survey:
 
-```text
-Survey link will be added here.
-```
+[OntoFlow initial contributor and private lab application](https://docs.google.com/forms/d/e/1FAIpQLSeMQUM6ZlFRYTsNM2yO_HvDOpVs0OmuGmRpuKWzSvtQpK7skw/viewform) — about 3 minutes (the form is in Korean)
+
+Participation is voluntary and unrelated to any institution, course, evaluation, or employment.
 
 ## Project Scope
 
