@@ -75,7 +75,10 @@ OntoFlow는 이 질문을 제품 구조의 핵심으로 다룹니다.
 참여 설문:
 
 ```text
-설문 링크가 준비되면 여기에 추가합니다.
+o 설문 링크가 준비되면 여기에 추가합니다.
+o ontoFlow 초기 컨트리뷰터 및 PrivateLab 참여 신청 구글폼:
+  - https://docs.google.com/forms/d/e/1FAIpQLSeMQUM6ZlFRYTsNM2yO_HvDOpVs0OmuGmRpuKWzSvtQpK7skw/viewform
+
 ```
 
 ## 저장소
